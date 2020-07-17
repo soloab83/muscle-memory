@@ -86,3 +86,45 @@ paraFour.textContent = 'James Harden';
 const paraFive = document.querySelector('.paragraph-five');
 console.log(paraFive);
 paraFive.textContent = 'Zion Williamson';
+
+const containerSix = document.createElement('div');
+containerSix.classList.add('container-six');
+console.log(containerSix);
+
+const sectionSix = document.createElement('h2');
+console.log(sectionSix);
+
+sectionSix.setAttribute('id', 'section-six');
+sectionSix.textContent = 'Blazers';
+
+const paraSix = document.createElement('p');
+paraSix.classList.add('paragraph-six');
+paraSix.textContent = 'Damian Lillard';
+console.log(paraSix);
+
+const body = document.querySelector('body');
+console.log(body);
+
+body.appendChild(containerSix);
+containerSix.appendChild(sectionSix);
+containerSix.appendChild(paraSix);
+
+const containerSeven = document.createElement('div');
+containerSeven.classList.add('container-seven');
+console.log(containerSeven);
+
+const sectionSeven = document.createElement('h2');
+console.log(sectionSeven);
+
+sectionSeven.setAttribute('id', 'section-seven');
+sectionSeven.textContent = 'Spurs';
+
+const paraSeven = document.createElement('p');
+paraSeven.classList.add('paragraph-seven');
+paraSeven.textContent = 'Demar DeRozan';
+console.log(paraSeven);
+
+
+body.appendChild(containerSeven);
+containerSix.appendChild(sectionSeven);
+containerSix.appendChild(paraSeven);
