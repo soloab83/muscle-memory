@@ -124,7 +124,6 @@ paraSeven.classList.add('paragraph-seven');
 paraSeven.textContent = 'Demar DeRozan';
 console.log(paraSeven);
 
-
 body.appendChild(containerSeven);
-containerSix.appendChild(sectionSeven);
-containerSix.appendChild(paraSeven);
+containerSeven.appendChild(sectionSeven);
+containerSeven.appendChild(paraSeven);
